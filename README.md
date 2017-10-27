@@ -23,5 +23,7 @@ Documentation:
 				Usage:
 					import ark
 					ark.login('cat', 'mew')	# Should Return the string "Access Denied"
-					
+
+	Challenge:
+		To make this task a little easier I am giving you the username of one of the user is the ark module. The user name is "root", without quotes. The challange here is to guess this user's password. You can assume the password is of length 3 and each letters in the password can be either lowercase character or uppercase character (no numbers or special characters)
 
