@@ -13,19 +13,22 @@ Documentation:
 	Public Functions:
 		1)	def login(tUsername, tPassword):
 				Description:
-					This function returns a string "Access Granted" if both the username and password passed to it is correct
+					This function returns a string "Access Granted" 
+					if both the username and password passed to it is correct
 				Arguments:
 					tUsername := test username to the function
 					tPassword := test password to the function
 				Returns:
-					Returns the string "Access Granted" if username and password are both correct
-					Returns the string "Access Denied" if either of the arguments are incorrect
+					Returns the string "Access Granted" if 
+					username and password are both correct
+					Returns the string "Access Denied" if 
+					either of the arguments are incorrect
 				Usage:
 					import ark
 					ark.login('cat', 'mew')	# Should Return the string "Access Denied"
 
 	Challenge:
-		To make this task a little easier I am giving you the username of one of the user is the ark module. 
+		To make this task a little easier I am giving you the username of one of the user. 
 		The user name is "root", without quotes. 
 		The challange here is to guess this user's password. 
 		You can assume the password is of length 3 and each letters in the password can be 
