@@ -13,8 +13,8 @@ Documentation:
 	Public Functions:
 		1)	def login(tUsername, tPassword):
 				Description:
-					This function returns a string "Access Granted" 
-					if both the username and password passed to it is correct
+					This function lets you login to the ark module
+
 				Arguments:
 					tUsername := test username to the function
 					tPassword := test password to the function
